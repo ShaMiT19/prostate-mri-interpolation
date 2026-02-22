@@ -28,7 +28,7 @@ The project emphasizes reproducibility, structured experimentation, and quantita
 
 ## 📄 Publications
 
-**[📑 Main Report](./ShamitSavant_DeepLearning_Main_Report_FinalProject.pdf)** | **[📋 Supplementary Materials](./ShamitSavant_DeepLearning_Supplementary_Report_FinalProject.pdf)**
+**[📑 Main Report](./reports/ShamitSavant_DeepLearning_Main_Report_FinalProject.pdf)** | **[📋 Supplementary Materials](./reports/ShamitSavant_DeepLearning_Supplementary_Report_FinalProject.pdf)**
 
 > **TL;DR:** U-Net achieved **30.08 dB PSNR** and **0.898 SSIM**. Key finding: **Problem formulation has 230× more impact than architecture choice.**
 

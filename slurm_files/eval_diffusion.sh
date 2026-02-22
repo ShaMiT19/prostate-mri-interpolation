@@ -10,4 +10,4 @@
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
 
-/orange/pinaki.sarder/s.savant/conda/envs/prostate_b200/bin/python scripts/eval_diffusion.py
+python scripts/eval_diffusion.py

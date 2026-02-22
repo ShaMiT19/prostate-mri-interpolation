@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project investigates deep learning approaches for MRI slice interpolation in prostate imaging. The objective is to reconstruct high-quality intermediate slices from sparsely sampled MRI volumes, improving volumetric continuity and anatomical detail.
 
@@ -26,9 +26,9 @@ The project emphasizes reproducibility, structured experimentation, and quantita
 
 ---
 
-## 📄 Publications
+## Publications
 
-**[📑 Main Report](./reports/ShamitSavant_DeepLearning_Main_Report_FinalProject.pdf)** | **[📋 Supplementary Materials](./reports/ShamitSavant_DeepLearning_Supplementary_Report_FinalProject.pdf)**
+**[Main Report](./reports/ShamitSavant_DeepLearning_Main_Report_FinalProject.pdf)** | **[Supplementary Materials](./reports/ShamitSavant_DeepLearning_Supplementary_Report_FinalProject.pdf)**
 
 > **TL;DR:** U-Net achieved **30.08 dB PSNR** and **0.898 SSIM**. Key finding: **Problem formulation has 230× more impact than architecture choice.**
 
@@ -36,7 +36,7 @@ The project emphasizes reproducibility, structured experimentation, and quantita
 
 ---
 
-## 🎯 Problem Motivation
+## Problem Motivation
 
 MRI scans often contain anisotropic resolution with large inter-slice gaps. Accurate interpolation of missing slices can:
 
@@ -49,35 +49,35 @@ This project evaluates modern deep learning methods to generate intermediate sli
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
-### 1️⃣ CNN (EDSR-style)
+### 1. CNN (EDSR-style)
 - Residual super-resolution architecture
 - L1 reconstruction loss
 - Strong baseline PSNR performance
 
-### 2️⃣ CNN + U-Net Hybrid
+### 2. CNN + U-Net Hybrid
 - Multi-scale encoder-decoder structure
 - Enhanced structural consistency
 - Improved SSIM performance
 
-### 3️⃣ GAN (Basic)
+### 3. GAN (Basic)
 - Generator + Discriminator framework
 - Adversarial + reconstruction loss
 - Improved perceptual realism
 
-### 4️⃣ GAN with SE Attention
+### 4. GAN with SE Attention
 - Channel-wise attention mechanism
 - Better texture preservation
 
-### 5️⃣ Diffusion Model
+### 5. Diffusion Model
 - Iterative denoising-based reconstruction
 - Strong structural continuity
 - Higher computational cost
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Models were evaluated using:
 
@@ -91,7 +91,7 @@ Both quantitative and qualitative evaluations were conducted across multiple exp
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── checkpoints/          # Best trained model checkpoints
@@ -113,7 +113,7 @@ I've included all the slurm files in the slurm_files folder for cleaner reposito
 
 ## ⚙️ Reproducibility
 
-### 1️⃣ Environment Setup
+### 1. Environment Setup
 
 ```bash
 conda env create -f prostate_final.yml
@@ -122,7 +122,7 @@ conda activate prostate_final
 
 **Note** : Kept the yml files in "yml files" folder for cleaner repo structure.
 
-### 2️⃣ Dataset
+### 2. Dataset
 
 Place the dataset at:
 
@@ -132,7 +132,7 @@ Place the dataset at:
 
 Or update dataset paths inside `scripts/dataset.py`.
 
-### 3️⃣ Training Example
+### 3. Training Example
 
 **Local training:**
 ```bash
@@ -148,7 +148,7 @@ sbatch train_cnn_slurm.sh
 
 ---
 
-## 💻 Compute Environment
+## Compute Environment
 
 Experiments were conducted on:
 
@@ -158,7 +158,7 @@ Experiments were conducted on:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - CNN-based models achieved strong PSNR performance
 - GAN variants improved perceptual sharpness and texture realism
@@ -167,7 +167,7 @@ Experiments were conducted on:
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - 3D volumetric modeling
 - Transformer-based architectures
@@ -176,7 +176,7 @@ Experiments were conducted on:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shamit Savant**  
 MS Electrical & Computer Engineering  
@@ -186,13 +186,13 @@ For questions or collaboration inquiries, feel free to reach out.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Advisor:** Prof. Wei Shao, University of Florida
 - **Computing Resources:** University of Florida HiPerGator Supercomputing Cluster

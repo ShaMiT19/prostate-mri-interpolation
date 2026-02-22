@@ -120,6 +120,8 @@ conda env create -f prostate_final.yml
 conda activate prostate_final
 ```
 
+**Note** : Kept the yml files in "yml files" folder for cleaner repo structure.
+
 ### 2️⃣ Dataset
 
 Place the dataset at:

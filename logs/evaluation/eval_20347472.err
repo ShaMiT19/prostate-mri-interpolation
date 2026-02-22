@@ -1,0 +1,8 @@
+  0%|          | 0/6963 [00:00<?, ?it/s]  0%|          | 0/6963 [00:12<?, ?it/s]
+Traceback (most recent call last):
+  File "/blue/pinaki.sarder/s.savant/prostate_sr_project/scripts/evaluation.py", line 1057, in <module>
+    evaluate_all_models()
+  File "/blue/pinaki.sarder/s.savant/prostate_sr_project/scripts/evaluation.py", line 1018, in evaluate_all_models
+    p = models[m](x).cpu().numpy()[0,0]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

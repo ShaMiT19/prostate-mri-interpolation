@@ -1,0 +1,27 @@
+train samples: 33122
+val samples: 7093
+Using: cuda
+
+RESUME=False. Starting fresh training.
+
+
+==== Epoch 1/3 ====
+Train Loss: 0.02723
+Val PSNR: 28.593 dB
+Val SSIM: 0.8711
+Saved: cnn_epoch1.pth
+★ NEW BEST SSIM: 0.8711 - saved to cnn_best.pth
+
+==== Epoch 2/3 ====
+Train Loss: 0.02561
+Val PSNR: 28.862 dB
+Val SSIM: 0.8756
+Saved: cnn_epoch2.pth
+★ NEW BEST SSIM: 0.8756 - saved to cnn_best.pth
+
+==== Epoch 3/3 ====
+Train Loss: 0.02517
+Val PSNR: 28.955 dB
+Val SSIM: 0.8776
+Saved: cnn_epoch3.pth
+★ NEW BEST SSIM: 0.8776 - saved to cnn_best.pth

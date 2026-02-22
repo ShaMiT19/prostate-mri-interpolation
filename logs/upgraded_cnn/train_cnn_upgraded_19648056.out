@@ -1,0 +1,108 @@
+train samples: 33122
+val samples: 7093
+Using: cuda
+
+============================================================
+CHECKPOINT FOUND: cnn_unet_epoch10.pth
+RESUMING from epoch 10
+============================================================
+
+Loaded model, optimizer, best SSIM: 0.8841
+Will continue training from epoch 11
+
+
+==== Epoch 11/25 ====
+Train Loss: 0.02401
+Val PSNR: 29.290 dB
+Val SSIM: 0.8848
+Saved: cnn_unet_epoch11.pth
+★ NEW BEST SSIM: 0.8848 - saved to cnn_unet_best.pth
+
+==== Epoch 12/25 ====
+Train Loss: 0.02395
+Val PSNR: 29.325 dB
+Val SSIM: 0.8859
+Saved: cnn_unet_epoch12.pth
+★ NEW BEST SSIM: 0.8859 - saved to cnn_unet_best.pth
+
+==== Epoch 13/25 ====
+Train Loss: 0.02391
+Val PSNR: 29.294 dB
+Val SSIM: 0.8856
+Saved: cnn_unet_epoch13.pth
+
+==== Epoch 14/25 ====
+Train Loss: 0.02388
+Val PSNR: 29.354 dB
+Val SSIM: 0.8862
+Saved: cnn_unet_epoch14.pth
+★ NEW BEST SSIM: 0.8862 - saved to cnn_unet_best.pth
+
+==== Epoch 15/25 ====
+Train Loss: 0.02384
+Val PSNR: 29.287 dB
+Val SSIM: 0.8848
+Saved: cnn_unet_epoch15.pth
+
+==== Epoch 16/25 ====
+Train Loss: 0.02381
+Val PSNR: 29.359 dB
+Val SSIM: 0.8866
+Saved: cnn_unet_epoch16.pth
+★ NEW BEST SSIM: 0.8866 - saved to cnn_unet_best.pth
+
+==== Epoch 17/25 ====
+Train Loss: 0.02378
+Val PSNR: 29.346 dB
+Val SSIM: 0.8858
+Saved: cnn_unet_epoch17.pth
+
+==== Epoch 18/25 ====
+Train Loss: 0.02375
+Val PSNR: 29.378 dB
+Val SSIM: 0.8870
+Saved: cnn_unet_epoch18.pth
+★ NEW BEST SSIM: 0.8870 - saved to cnn_unet_best.pth
+
+==== Epoch 19/25 ====
+Train Loss: 0.02373
+Val PSNR: 29.394 dB
+Val SSIM: 0.8865
+Saved: cnn_unet_epoch19.pth
+
+==== Epoch 20/25 ====
+Train Loss: 0.02371
+Val PSNR: 29.385 dB
+Val SSIM: 0.8863
+Saved: cnn_unet_epoch20.pth
+
+==== Epoch 21/25 ====
+Train Loss: 0.02369
+Val PSNR: 29.414 dB
+Val SSIM: 0.8870
+Saved: cnn_unet_epoch21.pth
+
+==== Epoch 22/25 ====
+Train Loss: 0.02367
+Val PSNR: 29.391 dB
+Val SSIM: 0.8870
+Saved: cnn_unet_epoch22.pth
+
+==== Epoch 23/25 ====
+Train Loss: 0.02365
+Val PSNR: 29.405 dB
+Val SSIM: 0.8865
+Saved: cnn_unet_epoch23.pth
+
+==== Epoch 24/25 ====
+Train Loss: 0.02364
+Val PSNR: 29.437 dB
+Val SSIM: 0.8878
+Saved: cnn_unet_epoch24.pth
+★ NEW BEST SSIM: 0.8878 - saved to cnn_unet_best.pth
+
+==== Epoch 25/25 ====
+Train Loss: 0.02362
+Val PSNR: 29.336 dB
+Val SSIM: 0.8864
+Saved: cnn_unet_epoch25.pth

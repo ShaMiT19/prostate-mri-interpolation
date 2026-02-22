@@ -1,0 +1,240 @@
+Using device: cuda
+Model parameters: 20,506,881
+
+Loading datasets...
+train samples: 33122
+val samples: 7093
+Train samples: 33122
+Val samples:   7093
+Train batches: 2071
+Val batches:   444
+
+Starting training for 20 epochs...
+Checkpoints will be saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion
+Logs being saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/logs/diffusion/train_diffusion_20251204-185157.log
+================================================================================
+
+Epoch 0 Summary:
+  Train Loss: 0.1119
+  Val Loss:   0.0927 *** NEW BEST ***
+  Best Val so far: 0.0927
+  LR:         0.000099
+  Time:       1220.0s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_0.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0927
+
+Epoch 1 Summary:
+  Train Loss: 0.0888
+  Val Loss:   0.0878 *** NEW BEST ***
+  Best Val so far: 0.0878
+  LR:         0.000098
+  Time:       1158.4s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_1.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0878
+
+Epoch 2 Summary:
+  Train Loss: 0.0872
+  Val Loss:   0.0882 
+  Best Val so far: 0.0878
+  LR:         0.000095
+  Time:       1153.5s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_2.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 3 Summary:
+  Train Loss: 0.0851
+  Val Loss:   0.0876 *** NEW BEST ***
+  Best Val so far: 0.0876
+  LR:         0.000091
+  Time:       1162.9s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_3.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0876
+
+Epoch 4 Summary:
+  Train Loss: 0.0844
+  Val Loss:   0.0842 *** NEW BEST ***
+  Best Val so far: 0.0842
+  LR:         0.000086
+  Time:       1150.9s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_4.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0842
+
+Epoch 5 Summary:
+  Train Loss: 0.0844
+  Val Loss:   0.0862 
+  Best Val so far: 0.0842
+  LR:         0.000080
+  Time:       1150.0s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_5.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 6 Summary:
+  Train Loss: 0.0830
+  Val Loss:   0.0855 
+  Best Val so far: 0.0842
+  LR:         0.000073
+  Time:       1156.8s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_6.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 7 Summary:
+  Train Loss: 0.0816
+  Val Loss:   0.0853 
+  Best Val so far: 0.0842
+  LR:         0.000066
+  Time:       1158.7s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_7.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 8 Summary:
+  Train Loss: 0.0820
+  Val Loss:   0.0842 *** NEW BEST ***
+  Best Val so far: 0.0842
+  LR:         0.000058
+  Time:       1150.5s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_8.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0842
+
+Epoch 9 Summary:
+  Train Loss: 0.0813
+  Val Loss:   0.0840 *** NEW BEST ***
+  Best Val so far: 0.0840
+  LR:         0.000051
+  Time:       1154.8s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_9.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0840
+
+Epoch 10 Summary:
+  Train Loss: 0.0817
+  Val Loss:   0.0849 
+  Best Val so far: 0.0840
+  LR:         0.000043
+  Time:       1152.3s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_10.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 11 Summary:
+  Train Loss: 0.0820
+  Val Loss:   0.0857 
+  Best Val so far: 0.0840
+  LR:         0.000035
+  Time:       1152.3s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_11.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 12 Summary:
+  Train Loss: 0.0814
+  Val Loss:   0.0839 *** NEW BEST ***
+  Best Val so far: 0.0839
+  LR:         0.000028
+  Time:       1152.2s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_12.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0839
+
+Epoch 13 Summary:
+  Train Loss: 0.0811
+  Val Loss:   0.0843 
+  Best Val so far: 0.0839
+  LR:         0.000021
+  Time:       1155.7s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_13.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 14 Summary:
+  Train Loss: 0.0824
+  Val Loss:   0.0835 *** NEW BEST ***
+  Best Val so far: 0.0835
+  LR:         0.000015
+  Time:       1150.8s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_14.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0835
+
+Epoch 15 Summary:
+  Train Loss: 0.0808
+  Val Loss:   0.0825 *** NEW BEST ***
+  Best Val so far: 0.0825
+  LR:         0.000010
+  Time:       1152.1s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_15.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0825
+
+Epoch 16 Summary:
+  Train Loss: 0.0811
+  Val Loss:   0.0813 *** NEW BEST ***
+  Best Val so far: 0.0813
+  LR:         0.000006
+  Time:       1154.2s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_16.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+✓✓✓ NEW BEST MODEL! Saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+    Validation loss: 0.0813
+
+Epoch 17 Summary:
+  Train Loss: 0.0801
+  Val Loss:   0.0819 
+  Best Val so far: 0.0813
+  LR:         0.000003
+  Time:       1150.7s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_17.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 18 Summary:
+  Train Loss: 0.0805
+  Val Loss:   0.0823 
+  Best Val so far: 0.0813
+  LR:         0.000002
+  Time:       1154.3s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_18.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Epoch 19 Summary:
+  Train Loss: 0.0797
+  Val Loss:   0.0838 
+  Best Val so far: 0.0813
+  LR:         0.000001
+  Time:       1155.3s
+================================================================================
+Saved checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_19.pth
+Saved latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+
+Training complete!
+Best validation loss: 0.0813
+All checkpoints are saved in: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion
+Best model for evaluation: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth

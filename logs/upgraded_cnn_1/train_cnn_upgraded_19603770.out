@@ -1,0 +1,26 @@
+train samples: 31952
+val samples: 6841
+Using: cuda
+
+============================================================
+CHECKPOINT FOUND: cnn_unet_epoch3.pth
+RESUMING from epoch 3
+============================================================
+
+Loaded model, optimizer, best SSIM: 0.5764
+Will continue training from epoch 4
+
+
+==== Epoch 4/5 ====
+Train Loss: 0.05040
+Val PSNR: 22.386 dB
+Val SSIM: 0.5953
+Saved: cnn_unet_epoch4.pth
+★ NEW BEST SSIM: 0.5953 - saved to cnn_unet_best.pth
+
+==== Epoch 5/5 ====
+Train Loss: 0.04983
+Val PSNR: 22.451 dB
+Val SSIM: 0.6017
+Saved: cnn_unet_epoch5.pth
+★ NEW BEST SSIM: 0.6017 - saved to cnn_unet_best.pth

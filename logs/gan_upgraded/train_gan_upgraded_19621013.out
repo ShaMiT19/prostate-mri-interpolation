@@ -1,0 +1,62 @@
+train samples: 33122
+val samples: 7093
+Using: cuda
+
+RESUME=False. Starting fresh training.
+
+
+====== Epoch 1/10 ======
+Val PSNR: 28.690 dB
+Val SSIM: 0.8760
+Saved: G_epoch1.pth, D_epoch1.pth
+★ NEW BEST SSIM: 0.8760 - saved to G_best.pth, D_best.pth
+
+====== Epoch 2/10 ======
+Val PSNR: 28.749 dB
+Val SSIM: 0.8772
+Saved: G_epoch2.pth, D_epoch2.pth
+★ NEW BEST SSIM: 0.8772 - saved to G_best.pth, D_best.pth
+
+====== Epoch 3/10 ======
+Val PSNR: 28.782 dB
+Val SSIM: 0.8785
+Saved: G_epoch3.pth, D_epoch3.pth
+★ NEW BEST SSIM: 0.8785 - saved to G_best.pth, D_best.pth
+
+====== Epoch 4/10 ======
+Val PSNR: 28.833 dB
+Val SSIM: 0.8789
+Saved: G_epoch4.pth, D_epoch4.pth
+★ NEW BEST SSIM: 0.8789 - saved to G_best.pth, D_best.pth
+
+====== Epoch 5/10 ======
+Val PSNR: 28.824 dB
+Val SSIM: 0.8788
+Saved: G_epoch5.pth, D_epoch5.pth
+
+====== Epoch 6/10 ======
+Val PSNR: 28.989 dB
+Val SSIM: 0.8811
+Saved: G_epoch6.pth, D_epoch6.pth
+★ NEW BEST SSIM: 0.8811 - saved to G_best.pth, D_best.pth
+
+====== Epoch 7/10 ======
+Val PSNR: 29.038 dB
+Val SSIM: 0.8821
+Saved: G_epoch7.pth, D_epoch7.pth
+★ NEW BEST SSIM: 0.8821 - saved to G_best.pth, D_best.pth
+
+====== Epoch 8/10 ======
+Val PSNR: 28.928 dB
+Val SSIM: 0.8814
+Saved: G_epoch8.pth, D_epoch8.pth
+
+====== Epoch 9/10 ======
+Val PSNR: 28.959 dB
+Val SSIM: 0.8814
+Saved: G_epoch9.pth, D_epoch9.pth
+
+====== Epoch 10/10 ======
+Val PSNR: 28.945 dB
+Val SSIM: 0.8816
+Saved: G_epoch10.pth, D_epoch10.pth

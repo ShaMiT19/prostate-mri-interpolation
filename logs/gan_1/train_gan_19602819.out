@@ -1,0 +1,27 @@
+train samples: 31952
+val samples: 6841
+Using: cuda
+
+============================================================
+CHECKPOINT FOUND:
+  Generator: G_epoch3.pth
+  Discriminator: D_epoch3.pth
+RESUMING from epoch 3
+============================================================
+
+Loaded Generator (new format), best SSIM: 0.5536
+Loaded Discriminator (new format)
+Will continue training from epoch 4
+
+
+====== Epoch 4/5 ======
+Val PSNR: 22.059 dB
+Val SSIM: 0.5810
+Saved: G_epoch4.pth, D_epoch4.pth
+★ NEW BEST SSIM: 0.5810 - saved to G_best.pth, D_best.pth
+
+====== Epoch 5/5 ======
+Val PSNR: 22.119 dB
+Val SSIM: 0.5825
+Saved: G_epoch5.pth, D_epoch5.pth
+★ NEW BEST SSIM: 0.5825 - saved to G_best.pth, D_best.pth

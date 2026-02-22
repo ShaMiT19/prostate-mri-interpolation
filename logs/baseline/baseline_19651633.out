@@ -1,0 +1,29 @@
+val samples: 7093
+Using device: cuda
+Validation samples: 7093
+============================================================
+
+============================================================
+BASELINE RESULTS
+============================================================
+
+1. LINEAR INTERPOLATION (Simple Averaging):
+   Average PSNR: 26.680 dB
+   Average SSIM: 0.8260
+
+2. NEAREST NEIGHBOR (Copy closest slice):
+   Average PSNR: 21.600 dB
+   Average SSIM: 0.6649
+
+============================================================
+COMPARISON TO YOUR MODELS:
+============================================================
+Your U-Net CNN:     PSNR ~29.2 dB, SSIM ~0.883
+Your Improved GAN:  PSNR ~29.1 dB, SSIM ~0.882
+Linear Baseline:    PSNR ~26.7 dB, SSIM ~0.826
+============================================================
+
+Your model improvement over baseline:
+  SSIM: +0.0570 (6.9% better)
+  PSNR: +2.52 dB (9.4% better)
+============================================================

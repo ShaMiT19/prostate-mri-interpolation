@@ -1,0 +1,28 @@
+name: prostate_final
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pydicom
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pillow
+  - pandas
+  - jupyterlab
+  - ipykernel
+  - tensorboard
+  - pip:
+      - torch==2.2.0
+      - torchvision==0.17.0
+      - pytorch-msssim
+      - monai
+      - opencv-python
+      - nibabel

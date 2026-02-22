@@ -1,0 +1,136 @@
+train samples: 33122
+val samples: 7093
+Using: cuda
+
+============================================================
+CHECKPOINT FOUND:
+  Generator: G_epoch3.pth
+  Discriminator: D_epoch3.pth
+RESUMING from epoch 3
+============================================================
+
+Loaded Generator (new format), best SSIM: 0.8750
+Loaded Discriminator (new format)
+Will continue training from epoch 4
+
+
+====== Epoch 4/25 ======
+Val PSNR: 28.967 dB
+Val SSIM: 0.8784
+Saved: G_epoch4.pth, D_epoch4.pth
+★ NEW BEST SSIM: 0.8784 - saved to G_best.pth, D_best.pth
+
+====== Epoch 5/25 ======
+Val PSNR: 29.043 dB
+Val SSIM: 0.8797
+Saved: G_epoch5.pth, D_epoch5.pth
+★ NEW BEST SSIM: 0.8797 - saved to G_best.pth, D_best.pth
+
+====== Epoch 6/25 ======
+Val PSNR: 29.050 dB
+Val SSIM: 0.8801
+Saved: G_epoch6.pth, D_epoch6.pth
+★ NEW BEST SSIM: 0.8801 - saved to G_best.pth, D_best.pth
+
+====== Epoch 7/25 ======
+Val PSNR: 29.034 dB
+Val SSIM: 0.8805
+Saved: G_epoch7.pth, D_epoch7.pth
+★ NEW BEST SSIM: 0.8805 - saved to G_best.pth, D_best.pth
+
+====== Epoch 8/25 ======
+Val PSNR: 29.045 dB
+Val SSIM: 0.8804
+Saved: G_epoch8.pth, D_epoch8.pth
+
+====== Epoch 9/25 ======
+Val PSNR: 29.092 dB
+Val SSIM: 0.8810
+Saved: G_epoch9.pth, D_epoch9.pth
+★ NEW BEST SSIM: 0.8810 - saved to G_best.pth, D_best.pth
+
+====== Epoch 10/25 ======
+Val PSNR: 29.090 dB
+Val SSIM: 0.8814
+Saved: G_epoch10.pth, D_epoch10.pth
+★ NEW BEST SSIM: 0.8814 - saved to G_best.pth, D_best.pth
+
+====== Epoch 11/25 ======
+Val PSNR: 29.126 dB
+Val SSIM: 0.8821
+Saved: G_epoch11.pth, D_epoch11.pth
+★ NEW BEST SSIM: 0.8821 - saved to G_best.pth, D_best.pth
+
+====== Epoch 12/25 ======
+Val PSNR: 29.127 dB
+Val SSIM: 0.8821
+Saved: G_epoch12.pth, D_epoch12.pth
+
+====== Epoch 13/25 ======
+Val PSNR: 29.131 dB
+Val SSIM: 0.8821
+Saved: G_epoch13.pth, D_epoch13.pth
+
+====== Epoch 14/25 ======
+Val PSNR: 29.125 dB
+Val SSIM: 0.8820
+Saved: G_epoch14.pth, D_epoch14.pth
+
+====== Epoch 15/25 ======
+Val PSNR: 29.119 dB
+Val SSIM: 0.8819
+Saved: G_epoch15.pth, D_epoch15.pth
+
+====== Epoch 16/25 ======
+Val PSNR: 29.105 dB
+Val SSIM: 0.8815
+Saved: G_epoch16.pth, D_epoch16.pth
+
+====== Epoch 17/25 ======
+Val PSNR: 29.142 dB
+Val SSIM: 0.8822
+Saved: G_epoch17.pth, D_epoch17.pth
+★ NEW BEST SSIM: 0.8822 - saved to G_best.pth, D_best.pth
+
+====== Epoch 18/25 ======
+Val PSNR: 29.147 dB
+Val SSIM: 0.8825
+Saved: G_epoch18.pth, D_epoch18.pth
+★ NEW BEST SSIM: 0.8825 - saved to G_best.pth, D_best.pth
+
+====== Epoch 19/25 ======
+Val PSNR: 29.185 dB
+Val SSIM: 0.8832
+Saved: G_epoch19.pth, D_epoch19.pth
+★ NEW BEST SSIM: 0.8832 - saved to G_best.pth, D_best.pth
+
+====== Epoch 20/25 ======
+Val PSNR: 29.160 dB
+Val SSIM: 0.8822
+Saved: G_epoch20.pth, D_epoch20.pth
+
+====== Epoch 21/25 ======
+Val PSNR: 29.180 dB
+Val SSIM: 0.8831
+Saved: G_epoch21.pth, D_epoch21.pth
+
+====== Epoch 22/25 ======
+Val PSNR: 29.160 dB
+Val SSIM: 0.8823
+Saved: G_epoch22.pth, D_epoch22.pth
+
+====== Epoch 23/25 ======
+Val PSNR: 29.199 dB
+Val SSIM: 0.8836
+Saved: G_epoch23.pth, D_epoch23.pth
+★ NEW BEST SSIM: 0.8836 - saved to G_best.pth, D_best.pth
+
+====== Epoch 24/25 ======
+Val PSNR: 29.172 dB
+Val SSIM: 0.8819
+Saved: G_epoch24.pth, D_epoch24.pth
+
+====== Epoch 25/25 ======
+Val PSNR: 29.209 dB
+Val SSIM: 0.8835
+Saved: G_epoch25.pth, D_epoch25.pth

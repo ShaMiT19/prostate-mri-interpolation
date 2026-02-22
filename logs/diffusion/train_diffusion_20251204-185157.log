@@ -1,0 +1,77 @@
+2025-12-04 18:51:57 ==== Starting new training run ====
+2025-12-04 18:51:57 Using device: cuda
+2025-12-04 18:51:58 Model parameters: 20,506,881
+2025-12-04 18:51:58 Loading datasets...
+2025-12-04 18:53:37 Dataset samples - train: 33122, val: 7093
+2025-12-04 18:53:37 Training for 20 epochs. Start epoch: 0, End epoch: 19
+2025-12-04 19:13:57 Epoch 0: Train Loss=0.1119, Val Loss=0.0927 **NEW BEST**
+2025-12-04 19:13:58 Saved epoch 0 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_0.pth
+2025-12-04 19:13:59 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 19:13:59 New best model (epoch 0) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0927)
+2025-12-04 19:33:17 Epoch 1: Train Loss=0.0888, Val Loss=0.0878 **NEW BEST**
+2025-12-04 19:33:18 Saved epoch 1 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_1.pth
+2025-12-04 19:33:18 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 19:33:19 New best model (epoch 1) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0878)
+2025-12-04 19:52:32 Epoch 2: Train Loss=0.0872, Val Loss=0.0882
+2025-12-04 19:52:33 Saved epoch 2 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_2.pth
+2025-12-04 19:52:33 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 20:11:56 Epoch 3: Train Loss=0.0851, Val Loss=0.0876 **NEW BEST**
+2025-12-04 20:11:57 Saved epoch 3 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_3.pth
+2025-12-04 20:11:57 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 20:11:58 New best model (epoch 3) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0876)
+2025-12-04 20:31:08 Epoch 4: Train Loss=0.0844, Val Loss=0.0842 **NEW BEST**
+2025-12-04 20:31:09 Saved epoch 4 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_4.pth
+2025-12-04 20:31:10 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 20:31:10 New best model (epoch 4) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0842)
+2025-12-04 20:50:20 Epoch 5: Train Loss=0.0844, Val Loss=0.0862
+2025-12-04 20:50:20 Saved epoch 5 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_5.pth
+2025-12-04 20:50:21 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 21:09:38 Epoch 6: Train Loss=0.0830, Val Loss=0.0855
+2025-12-04 21:09:38 Saved epoch 6 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_6.pth
+2025-12-04 21:09:39 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 21:28:58 Epoch 7: Train Loss=0.0816, Val Loss=0.0853
+2025-12-04 21:28:58 Saved epoch 7 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_7.pth
+2025-12-04 21:28:59 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 21:48:10 Epoch 8: Train Loss=0.0820, Val Loss=0.0842 **NEW BEST**
+2025-12-04 21:48:10 Saved epoch 8 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_8.pth
+2025-12-04 21:48:10 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 21:48:11 New best model (epoch 8) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0842)
+2025-12-04 22:07:26 Epoch 9: Train Loss=0.0813, Val Loss=0.0840 **NEW BEST**
+2025-12-04 22:07:26 Saved epoch 9 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_9.pth
+2025-12-04 22:07:26 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 22:07:27 New best model (epoch 9) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0840)
+2025-12-04 22:26:39 Epoch 10: Train Loss=0.0817, Val Loss=0.0849
+2025-12-04 22:26:40 Saved epoch 10 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_10.pth
+2025-12-04 22:26:40 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 22:45:53 Epoch 11: Train Loss=0.0820, Val Loss=0.0857
+2025-12-04 22:45:53 Saved epoch 11 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_11.pth
+2025-12-04 22:45:54 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 23:05:06 Epoch 12: Train Loss=0.0814, Val Loss=0.0839 **NEW BEST**
+2025-12-04 23:05:06 Saved epoch 12 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_12.pth
+2025-12-04 23:05:07 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 23:05:07 New best model (epoch 12) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0839)
+2025-12-04 23:24:23 Epoch 13: Train Loss=0.0811, Val Loss=0.0843
+2025-12-04 23:24:24 Saved epoch 13 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_13.pth
+2025-12-04 23:24:24 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 23:43:35 Epoch 14: Train Loss=0.0824, Val Loss=0.0835 **NEW BEST**
+2025-12-04 23:43:36 Saved epoch 14 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_14.pth
+2025-12-04 23:43:36 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-04 23:43:36 New best model (epoch 14) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0835)
+2025-12-05 00:02:48 Epoch 15: Train Loss=0.0808, Val Loss=0.0825 **NEW BEST**
+2025-12-05 00:02:49 Saved epoch 15 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_15.pth
+2025-12-05 00:02:50 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-05 00:02:50 New best model (epoch 15) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0825)
+2025-12-05 00:22:04 Epoch 16: Train Loss=0.0811, Val Loss=0.0813 **NEW BEST**
+2025-12-05 00:22:05 Saved epoch 16 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_16.pth
+2025-12-05 00:22:05 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-05 00:22:06 New best model (epoch 16) saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth (val_loss=0.0813)
+2025-12-05 00:41:16 Epoch 17: Train Loss=0.0801, Val Loss=0.0819
+2025-12-05 00:41:17 Saved epoch 17 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_17.pth
+2025-12-05 00:41:17 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-05 01:00:31 Epoch 18: Train Loss=0.0805, Val Loss=0.0823
+2025-12-05 01:00:32 Saved epoch 18 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_18.pth
+2025-12-05 01:00:34 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-05 01:19:49 Epoch 19: Train Loss=0.0797, Val Loss=0.0838
+2025-12-05 01:19:50 Saved epoch 19 checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/epoch_19.pth
+2025-12-05 01:19:51 Updated latest checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/latest_checkpoint.pth
+2025-12-05 01:19:51 Training complete. Best val_loss=0.0813

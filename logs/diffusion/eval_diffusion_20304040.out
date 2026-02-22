@@ -1,0 +1,45 @@
+Device: cuda
+Configuration:
+  - Samples to evaluate: 200
+  - Diffusion timesteps: 100
+  - Batch size: 8
+
+Using checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+Loaded checkpoint from epoch 16
+Validation loss at checkpoint: 0.0813
+
+Loading test dataset...
+test samples: 6963
+Total test samples: 6963
+Will evaluate: 200 samples
+Expected batches: 25
+
+Evaluating diffusion model...
+
+Computing baseline (linear interpolation)...
+
+================================================================================
+EVALUATION RESULTS
+================================================================================
+
+Samples evaluated: 200
+
+Diffusion Model:
+  PSNR: 17.89 ± 6.19 dB
+  SSIM: 0.5848 ± 0.1709
+
+Linear Baseline:
+  PSNR: 27.37 ± 3.26 dB
+  SSIM: 0.8415 ± 0.0570
+
+Improvement over Baseline:
+  PSNR: -34.64%
+  SSIM: -30.50%
+================================================================================
+
+Saving visualizations to /blue/pinaki.sarder/s.savant/prostate_sr_project/results/diffusion/visualizations...
+Saved 5 visualizations
+
+Results saved to: /blue/pinaki.sarder/s.savant/prostate_sr_project/results/diffusion/results.txt
+
+Evaluation complete! ✓

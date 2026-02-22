@@ -1,0 +1,20 @@
+DIFFUSION MODEL EVALUATION RESULTS
+================================================================================
+
+Checkpoint: /blue/pinaki.sarder/s.savant/prostate_sr_project/checkpoints/diffusion/best_checkpoint.pth
+Epoch: 16
+Samples evaluated: 200
+Diffusion timesteps: 100
+Batch size: 8
+
+Diffusion Model:
+  PSNR: 17.89 ± 6.19 dB
+  SSIM: 0.5848 ± 0.1709
+
+Linear Baseline:
+  PSNR: 27.37 ± 3.26 dB
+  SSIM: 0.8415 ± 0.0570
+
+Improvement over Baseline:
+  PSNR: -34.64%
+  SSIM: -30.50%

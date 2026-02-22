@@ -1,0 +1,23 @@
+MRI SLICE INTERPOLATION - EVALUATION SUMMARY
+============================================================
+
+CNN_EDSR:
+  PSNR: 22.273 ± 3.05 dB
+  SSIM: 0.5699 ± 0.081
+  L1:   0.05313
+
+CNN_UNet:
+  PSNR: 22.480 ± 3.04 dB
+  SSIM: 0.5842 ± 0.080
+  L1:   0.05158
+
+GAN_Basic:
+  PSNR: 22.149 ± 3.07 dB
+  SSIM: 0.5658 ± 0.081
+  L1:   0.05422
+
+GAN_Improved:
+  PSNR: 21.656 ± 3.10 dB
+  SSIM: 0.5746 ± 0.083
+  L1:   0.05681
+

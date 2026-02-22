@@ -23,6 +23,17 @@ Multiple model families were implemented, trained, and rigorously evaluated unde
 
 The project emphasizes reproducibility, structured experimentation, and quantitative evaluation.
 
+
+---
+
+## 📄 Publications
+
+**[📑 Main Report](./ShamitSavant_DeepLearning_Main_Report_FinalProject.pdf)** | **[📋 Supplementary Materials](./ShamitSavant_DeepLearning_Supplementary_Report_FinalProject.pdf)**
+
+> **TL;DR:** U-Net achieved **30.08 dB PSNR** and **0.898 SSIM**. Key finding: **Problem formulation has 230× more impact than architecture choice.**
+
+---
+
 ---
 
 ## 🎯 Problem Motivation
@@ -96,6 +107,7 @@ Both quantitative and qualitative evaluations were conducted across multiple exp
 ```
 
 **Note:** Large raw datasets (~80GB) are not included in this repository.
+I've included all the slurm files in the slurm_files folder for cleaner repository structure. Please make sure to place them in correct location or change the paths accordingly before running in your system. 
 
 ---
 
@@ -113,7 +125,7 @@ conda activate prostate_final
 Place the dataset at:
 
 ```
-/blue/pinaki.sarder/s.savant/prostate_sr_project/data/raw/
+/blue/username
 ```
 
 Or update dataset paths inside `scripts/dataset.py`.
@@ -124,6 +136,8 @@ Or update dataset paths inside `scripts/dataset.py`.
 ```bash
 python scripts/train_cnn.py
 ```
+
+**Note** : Make sure to include proper GPU access before running. 
 
 **Or via SLURM (HiPerGator):**
 ```bash
@@ -178,6 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Advisor:** Prof. Pinaki Sarder, University of Florida
+- **Advisor:** Prof. Wei Shao, University of Florida
 - **Computing Resources:** University of Florida HiPerGator Supercomputing Cluster
 - **Dataset:** UCLA Prostate MRI-US Biopsy Dataset from The Cancer Imaging Archive (TCIA)
